@@ -59,22 +59,43 @@ Function
 */
 
 
-// string
-const name = "Manikanta";
+// // string
+// const name = "Manikanta";
 
-// number
-const age = 18;
+// // number
+// const age = 18;
 
-// boolean
-const hasSiblings = true;
+// // boolean
+// const hasSiblings = true;
 
-// null
-const abc = null;
+// // null
+// const abc = null;
 
-// undefined
-let a;
+// // undefined
+// let a;
 
-// symbol
-let sym = Symbol();
+// // symbol
+// let sym = Symbol();
 
-console.log(typeof sym);
+// console.log(typeof sym);
+
+
+
+// Refferenced Data Type
+
+
+// Array
+const hobbies = ["cricket", "movie"];
+
+// Object Literals
+const person = {
+    name: "Mani",
+    age: "20"
+}
+
+// Dates
+const today = new Date
+
+console.log(today);
+
+console.log(typeof person);
