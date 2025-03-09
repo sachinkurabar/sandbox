@@ -1,101 +1,62 @@
-//  alert("Hello World");
-//  console.log(123);
-//  console.log("Hello");
-//  console.log(true);
-//  var greeting = "hello";
-//  console.log(greeting);
-// console.log([1,2,3,4]);
-// console.log({a: 1, b: 2, c: 3});
+// Type Conversion and cohesion
 
-// var name = "Mani";
-// // console.log(name);
-// name = "Gourav";
-// console.log(name);
+let val;
 
-// var greeting;
-// console.log(greeting);
-// greeting = "hello";
-// console.log(greeting);
+// number to string conversion
 
-// let firstName = "Rakesh";
-// console.log(firstName);
+val = String(5);
 
-// const name = "Mani";
-// console.log(name);
-// name = "Gourav";
-//  console.log(name);
+// boolean to string
 
-// const person = {
-//     name : "Rakesh"
-// }
-// console.log(person);
-// person.name = "Deeksha";
-// console.log(person);
+val = String(true);
 
-// const number = [1,2,3,4,5];
-// number.push(6);
-// console.log(number);
+// date to string
+
+val = String (new Date());
+
+// array to string
+
+val = String([1, 2, 3, 4]);
+
+// tostring()
+
+val = (5).toString();
+val = (true).toString();
 
 
 
 
 
+// string to number
+val = Number("sachin");
+val = Number("5");
 
-/*Two types of DataTypes in Javascript
-// Primitive DataTypes
+// boolean to number
+val = Number(true);
+val = Number(false);
+val = Number(null);
 
-String
-Number
-Boolean
-null
-undefined
-Symbol
+// parseInt()
 
-// Referrenced DataType
+val = parseInt("5");
 
-Object Literals
-Array
-Function
-*/
-
-
-// // string
-// const name = "Manikanta";
-
-// // number
-// const age = 18;
-
-// // boolean
-// const hasSiblings = true;
-
-// // null
-// const abc = null;
-
-// // undefined
-// let a;
-
-// // symbol
-// let sym = Symbol();
-
-// console.log(typeof sym);
+// console.log(val);
+// console.log(typeof val);
+// console.log(val.toFixed(2));
 
 
 
-// Refferenced Data Type
 
 
-// Array
-const hobbies = ["cricket", "movie"];
 
-// Object Literals
-const person = {
-    name: "Mani",
-    age: "20"
-}
+// Type Cohesion
 
-// Dates
-const today = new Date
+const val1 = "5";
+const val2 = 6;
 
-console.log(today);
+const sum = val1 + val2;
 
-console.log(typeof person);
+console.log(sum);
+console.log(typeof sum);
+
+
